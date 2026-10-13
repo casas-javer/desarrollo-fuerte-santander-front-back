@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const whitelist = [
   "https://javer.com.mx",
   "https://www.javer.com.mx",
-  "https://qa-cliente.javer.com.mx",
+  "https://casas-javer.github.io",
 ];
 const corsOptions = {
   origin: function (origin, callback) {
@@ -29,7 +29,7 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 // Ruta para manejar el envío del formulario
-app.post("/desarrollo-fuerte", (req, res) => {
+app.post(["/desarrollo-fuerte", "/"], (req, res) => {
   const { nombre, telefono, email, desarrollo } = req.body;
 
   // Configurar el transporte del correo electrónico usando nodemailer
