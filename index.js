@@ -62,7 +62,7 @@ app.post(["/desarrollo-fuerte", "/"], (req, res) => {
       // res.status(200).send("Correo enviado correctamente");
       // Redirigir al usuario a la página de gracias
       res.redirect(
-        "https://www.javer.com.mx/landing/desarrollador-fuerte/sugerencias-gracias.html",
+        "https://casas-javer.github.io/desarrollo-fuerte-santander-front/sugerencias-gracias.html",
       );
     }
   });
