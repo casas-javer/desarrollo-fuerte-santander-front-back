@@ -49,7 +49,7 @@ app.post("/desarrollo-fuerte", (req, res) => {
     to: "sperales@javer.com.mx", // Dirección de correo a la que se enviará el formulario
     subject: "Nuevo mensaje Desarrollo fuerte Santander",
     text: `Mensaje desde: Dessarollos fuertes de santander\nNombre: ${nombre}\nTeléfono: ${telefono}\nEmail: ${email}\nDesarrollo: ${desarrollo}`,
-    bcc: "rct@javer.com.mx", // Dirección de correo en copia oculta (BCC)
+    bcc: "mkt@javer.com.mx", // Dirección de correo en copia oculta (BCC)
   };
 
   // Enviar el correo electrónico
