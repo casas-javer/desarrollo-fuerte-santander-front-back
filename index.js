@@ -47,8 +47,8 @@ app.post(["/desarrollo-fuerte", "/"], (req, res) => {
   let mailOptions = {
     from: "noreply@javer.com.mx", // Cambiar por tu dirección de correo
     to: "sperales@javer.com.mx", // Dirección de correo a la que se enviará el formulario
-    subject: "Nuevo mensaje Desarrollo fuerte Santander",
-    text: `Mensaje desde: Dessarollos fuertes de santander\nNombre: ${nombre}\nTeléfono: ${telefono}\nEmail: ${email}\nDesarrollo: ${desarrollo}`,
+    subject: "Nuevo mensaje Desarrollo Santander",
+    text: `Mensaje desde: Desarrollo de santander\nNombre: ${nombre}\nTeléfono: ${telefono}\nEmail: ${email}\nDesarrollo: ${desarrollo}`,
     bcc: "mkt@javer.com.mx", // Dirección de correo en copia oculta (BCC)
   };
 
